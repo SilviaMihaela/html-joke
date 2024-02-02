@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #45badd;
+  --secondary-color: #ff3482;
+  --main-font-size: 16px;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.joke-container {
+  background-color: #80c4d8;
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-joke {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  color: white;
+  box-shadow: 5px;
+  margin-bottom: 50px;
+}
